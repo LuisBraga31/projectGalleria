@@ -1,3 +1,5 @@
+import '../../styles/components/galleria.sass';
+
 export default function Galleria() {
 
     return (
