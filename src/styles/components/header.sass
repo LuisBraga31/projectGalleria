@@ -5,7 +5,10 @@
     display: flex
     justify-content: space-between
     @include mixins.container
-    
+
+    @include mixins.mobile
+        padding: 1.1rem
+       
     &-brand 
         color: variables.$primary-color
         font-size: 3rem
@@ -14,6 +17,9 @@
         ul
             height: 100%
             @include mixins.flex-center
+            
+            @include mixins.mobile
+                display: none
             
             li
                 margin: 0 16px
@@ -32,6 +38,9 @@
         ul
             height: 100%
             @include mixins.flex-center
+            
+            @include mixins.mobile
+                display: none
             
             li
                 margin: 0 1rem
