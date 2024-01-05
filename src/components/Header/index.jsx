@@ -1,3 +1,4 @@
+import { FaYoutube, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import '../../styles/components/header.sass';
 
 export default function Header() {
@@ -18,9 +19,10 @@ export default function Header() {
 
             <div className="header-social-media">
             <ul>
-                <li> <a href="#"> <i> FB </i> </a> </li>
-                <li> <a href="#"> <i> IG </i> </a> </li>
-                <li> <a href="#"> <i> YT </i> </a> </li>
+                <li> <a href="#"> <FaFacebook size={20}/> </a> </li>
+                <li> <a href="#"> <FaInstagram size={20}/> </a> </li>
+                <li> <a href="#"> <FaYoutube size={20}/> </a> </li>
+                <li> <a href="#"> <FaTwitter size={20}/> </a> </li>
             </ul>
             </div>
 
