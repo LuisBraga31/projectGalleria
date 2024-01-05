@@ -1,3 +1,5 @@
+import '../../styles/components/footer.sass'
+
 export default function Footer() {
 
     return (
