@@ -10,6 +10,9 @@
 
     @include mixins.mobile
         flex-direction: column
+    
+    @include mixins.tablet
+        padding: 0 10px
 
 
     &-card
@@ -19,6 +22,8 @@
         @include mixins.flex-center
         flex-direction: column
         color: variables.$primary-color
+        @include mixins.tablet
+            height: 290px
 
         @include mixins.mobile
             width: 90%
