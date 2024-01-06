@@ -1,8 +1,22 @@
-# React + Vite
+# Projeto de uma galeria de imagens
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto foi o desenvolvimento de uma galeria de imagens utilizando React e Sass.
 
-Currently, two official plugins are available:
+## Imagem do Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Galleria](https://github.com/LuisBraga31/projectGalleria/assets/83723698/ee4894d4-8522-43cb-bc08-774ea6f54774)
+
+## Tecnologias Utilizadas:
+
+Essas foras as seguintes tecnologias usadas para criação do projeto.
+
+* React
+* JavaScript
+* HTML
+* Sass
+
+## Ideia do Projeto
+
+O projeto foi desenvolvido com base no vídeo do canal Matheus Battisti - Hora de Codar.
+
+Link para o vídeo: <a href="https://www.youtube.com/watch?v=Wo5t3uUV8n4&t=928s&ab_channel=MatheusBattisti-HoradeCodar"> Projeto com Sass </a>
